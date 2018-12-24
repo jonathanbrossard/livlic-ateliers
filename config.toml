@@ -1,0 +1,99 @@
+# Site settings
+baseurl = "/"
+languageCode = "en-us"
+title = "Livlic Ateliers"
+theme = "hugo-artists-theme-update" 
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Livlic Ateliers"
+	description = "Livlic Ateliers - Cours de dessin / dessin de base / morphologie et sculpture / théâtre / théâtre d'improvisation"
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "contact@livlic-ateliers.fr"
+
+
+	# Header an navigation
+	#
+	# To change the header background the 'hero-bg-jpg' at 'static/img'.
+	# Do the same with the logo ('logo.svg').
+	# But keep the original filename!
+	[params.header]
+		title = "Livlic Ateliers"
+		shortBio = "Dessin de base // Sculpture"
+
+
+	# About section
+	#
+	# Replace the 'avatar.jpg' under 'static/img' with your own image.
+	[params.about]
+		title = "Présentation"
+		bio = "**Dessinateur de tout niveau** souhaitant apprendre les bases du dessin et progresser. Atelier d'une durée de 3 heures, dans un environnement convivial et décontracté. Entraîné par une synergie de groupe et une dynamique de l'engagement."
+
+	# Contact secion
+	[params.links]
+		title = "Autre activités"
+
+		[[params.links.link]]
+			name = "Atelier Liva"
+			link = "//livlicateliers.wordpress.com/"
+		[[params.links.link]]
+			name = "Liva Dessin"
+			link = "//www.facebook.com/pages/LivA-Dessin/149690382751"
+		[[params.links.link]]
+			name = "Liva Morphologie"
+			link = "www.facebook.com/LivaMorphologie"
+		[[params.links.link]]
+			name = "Liva Modelage Sculpture"
+			link = "//www.facebook.com/pages/LivA-Modelage-Sculpture/918145641547827"
+
+	# Contact secion
+	[params.contact]
+		title = "Liens"
+
+		[[params.contact.social]]
+			icon = "wordpress.svg"
+			link = "//livlicateliers.wordpress.com/"
+
+		[[params.contact.social]]
+			icon = "youtube.svg"
+			link = "//www.youtube.com/channel/UCSUSE51SgNmkRQmLODXTLfg"
+
+		[[params.contact.social]]
+			icon = "instagram.svg"
+			link = "//www.instagram.com/livlic_ateliers/"
+
+		[[params.contact.social]]
+			icon = "tumblr.svg"
+			link = "//livlic-ateliers.tumblr.com/"
+
+		[[params.contact.social]]
+			icon = "secondlife.png"
+			link = "//maps.secondlife.com/secondlife/Nori/32/32/28"
+
+	[params.form]
+		title = "Let's work together"
+		# Form fields
+		name = "Your Name"
+		email = "Your Email"
+		message = "Tell me about your project"
+		buttonText = "Send"
+
+
+	[params.footer]
+		copyright = "Réalisé avec ❤️ en 🇫🇷"

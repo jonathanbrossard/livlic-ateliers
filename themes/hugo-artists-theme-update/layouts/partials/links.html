@@ -1,0 +1,9 @@
+{{ "<!-- Links section -->" | safeHTML }}
+<section class="alt-section section-contact">
+    {{ with .Site.Params.links.title }}<h3 id="links">{{ . }}</h3>{{ end }}
+    <div class="">
+        {{ range .Site.Params.links.link }}
+        <a class="btn" href="{{ .link }}" target="_blank">{{ .name }}</a>
+        {{ end }}
+    </div>
+</section>

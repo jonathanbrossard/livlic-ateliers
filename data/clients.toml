@@ -1,0 +1,23 @@
+# Section title
+title = "Témoignages"
+
+[[list]]
+    avatar = "billet-reduc.jpg"
+    name   = ""
+    title  = ""
+    quote  = "Dans un cadre familial, zen et agréable, nous avons passé un excellent moment et avons pu apprendre qques bases ms surtout Jérôme nous a donné l'envie de dépasser nos limites et de continuer:) merci!"
+    logo   = "empty.png"
+
+[[list]]
+    avatar = "billet-reduc.jpg"
+    name   = ""
+    title  = ""
+    quote  = "Ce cours de dessin adapté aux débutants était formidable. Le professeur de dessin était très sympathique, pédagogue et a fait en sorte que nous repartions tous avec un premier dessin réussi en main. L'ambiance, la qualité de l'enseignement, l'accueil, tout ces éléments me conduisent à recommander chaudement cette activité !"
+    logo   = "empty.png"
+
+[[list]]
+    avatar = "billet-reduc.jpg"
+    name   = ""
+    title  = ""
+    quote  = "Franchement, c'est fou ce que l'on peut apprendre en 3heures. L'ambiance est conviviale, le professeur très sympa, un apprentissage à son rythme pour un résultat impressionnant au final. Vraiment bravo! :) A partager."
+    logo   = "empty.png"

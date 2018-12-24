@@ -1,0 +1,66 @@
+{{ "<!-- About section -->" | safeHTML }}
+<section>
+    {{ with .Site.Params.about.title }}<h3 id="about-me">{{ . }}</h3>{{ end }}
+
+    <div class="face-lockup">
+        <div class="face-img"></div>
+        <div class="icon-pencil">
+            {{ partial "icons/icon-pencil.html"}}
+        </div>
+        <div class="icon-mouse">
+            {{ partial "icons/icon-mouse.html"}}
+        </div>
+        <div class="icon-browser">
+            {{ partial "icons/icon-browser.html"}}
+        </div>
+        <div class="icon-video">
+            {{ partial "icons/icon-video.html"}}
+        </div>
+    </div>
+
+    {{ with .Site.Params.about.bio }}
+    <div class="blurb">
+        <p>{{ . | markdownify }}</p>
+    </div>
+    {{ end }}
+
+    <div class="blurb">
+        <strong>Contenu pédagogique : </strong>
+        
+        <br /><br />
+            
+        <em>Jouer avec les couleurs, la matière, les volumes, Travail de préparation, réflexion et décision, Explorer différentes techniques (peinture, collage, dessin, modelage ...), Réaliser des oeuvres, et concrétiser son désir de création, Dessiner en extérieur (paysages, lieux...)</em>
+
+        <br /><br />
+
+        <strong>Méthodologie pédagogique : </strong>
+        
+        <br /><br />
+
+        Tout le travail fait appel à la participation active des élèves et se fait sous forme d'exercices pratiques et ludiques. 
+        
+        <br /><br />
+
+        <u>Exercices autour de :</u> Volumes, lignes, formes, Surface, matière, Couleur et valeur, lumière, Format et support, Matériaux et outils
+        
+        <hr />
+
+        Matériel de dessin : fourni 
+        <br />Durée des séances : 3 heures
+    </div>
+
+    {{ with .Site.Params.about.skills }}
+    <div class="skill-lockup">
+        {{ range . }}
+        <div class="skill-unit">
+            <div class="skill-label">{{ .name }}</div>
+            <div class="skill-icons skill-{{ .value }}">
+                {{ range (seq 10) }}
+                    <span></span>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+</section>
