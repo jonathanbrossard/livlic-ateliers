@@ -79,8 +79,8 @@ theme = "hugo-artists-theme-update"
 			link = "//www.instagram.com/livlic_ateliers/"
 
 		[[params.contact.social]]
-			icon = "tumblr.svg"
-			link = "//livlic-ateliers.tumblr.com/"
+			icon = "twitter.svg"
+			link = "//twitter.com/jcocheril"
 
 		[[params.contact.social]]
 			icon = "secondlife.png"
