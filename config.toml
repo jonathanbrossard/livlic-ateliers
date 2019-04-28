@@ -83,6 +83,10 @@ theme = "hugo-artists-theme-update"
 			link = "//twitter.com/jcocheril"
 
 		[[params.contact.social]]
+			icon = "pinterest.png"
+			link = "//www.pinterest.fr/livlicateliers/"
+
+		[[params.contact.social]]
 			icon = "secondlife.png"
 			link = "//maps.secondlife.com/secondlife/Nori/32/32/28"
 
