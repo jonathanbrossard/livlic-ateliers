@@ -80,7 +80,11 @@ theme = "hugo-artists-theme-update"
 
 		[[params.contact.social]]
 			icon = "twitter.svg"
-			link = "//twitter.com/jcocheril"
+			link = "//twitter.com/LivlicAteliers"
+
+		[[params.contact.social]]
+			icon = "tumblr.svg"
+			link = "//livlic-ataliers-blog.tumblr.com"
 
 		[[params.contact.social]]
 			icon = "pinterest.png"
