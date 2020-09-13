@@ -37,31 +37,6 @@ theme = "hugo-artists-theme-update"
 		title = "Livlic Ateliers"
 		shortBio = "Dessin de base // Sculpture"
 
-
-	# About section
-	#
-	# Replace the 'avatar.jpg' under 'static/img' with your own image.
-	[params.about]
-		title = "Présentation"
-		bio = "**Dessinateur de tout niveau** souhaitant apprendre les bases du dessin et progresser. Atelier d'une durée de 3 heures, dans un environnement convivial et décontracté. Entraîné par une synergie de groupe et une dynamique de l'engagement."
-
-	# Contact secion
-	[params.links]
-		title = "Autre activités"
-
-		[[params.links.link]]
-			name = "Atelier Liva"
-			link = "//livlicateliers.wordpress.com/"
-		[[params.links.link]]
-			name = "Liva Dessin"
-			link = "//www.facebook.com/pages/LivA-Dessin/149690382751"
-		[[params.links.link]]
-			name = "Liva Morphologie"
-			link = "www.facebook.com/LivaMorphologie"
-		[[params.links.link]]
-			name = "Liva Modelage Sculpture"
-			link = "//www.facebook.com/pages/LivA-Modelage-Sculpture/918145641547827"
-
 	# Contact secion
 	[params.contact]
 		title = "Liens"
@@ -93,6 +68,30 @@ theme = "hugo-artists-theme-update"
 		[[params.contact.social]]
 			icon = "secondlife.png"
 			link = "//maps.secondlife.com/secondlife/Nori/32/32/28"
+
+	# About section
+	#
+	# Replace the 'avatar.jpg' under 'static/img' with your own image.
+	[params.about]
+		title = "Présentation"
+		bio = "**Dessinateur de tout niveau** souhaitant apprendre les bases du dessin et progresser. Atelier d'une durée de 3 heures, dans un environnement convivial et décontracté. Entraîné par une synergie de groupe et une dynamique de l'engagement."
+
+	# Contact secion
+	[params.links]
+		title = "Autre activités"
+
+		[[params.links.link]]
+			name = "Atelier Liva"
+			link = "//livlicateliers.wordpress.com/"
+		[[params.links.link]]
+			name = "Liva Dessin"
+			link = "//www.facebook.com/pages/LivA-Dessin/149690382751"
+		[[params.links.link]]
+			name = "Liva Morphologie"
+			link = "www.facebook.com/LivaMorphologie"
+		[[params.links.link]]
+			name = "Liva Modelage Sculpture"
+			link = "//www.facebook.com/pages/LivA-Modelage-Sculpture/918145641547827"
 
 	[params.form]
 		title = "Let's work together"
