@@ -1,11 +1,13 @@
 {{ "<!-- About section -->" | safeHTML }}
 <section>
-    <div>
+    <div style="margin: 10px;">
+        <center>
         {{ range .Site.Params.contact.social }}
         <a href="{{ .link }}" target="_blank">
             <img src="img/logos/{{ .icon }}" border="0" width="50" />
         </a>
         {{ end }}
+        </center>
     </div>
 
     {{ with .Site.Params.about.title }}<h3 id="about-me">{{ . }}</h3>{{ end }}
